@@ -29,6 +29,7 @@ Usage:
 ## Installation
 
 ```bash
+cd anonsurfz/
 chmod +x installer.sh
 ./installer.sh
 ```
