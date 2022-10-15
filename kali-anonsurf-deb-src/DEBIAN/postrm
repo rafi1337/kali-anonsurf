@@ -1,3 +1,6 @@
 if [ -e /etc/tor/torrc.orig ]; then
  mv /etc/tor/torrc.orig /etc/tor/torrc
 fi
+if [ -e /etc/tor/torsocks.conf.orig ]; then
+ mv /etc/tor/torsocks.conf.orig /etc/tor/torsocks.conf
+fi
