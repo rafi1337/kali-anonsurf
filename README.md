@@ -1,7 +1,7 @@
 #######################
 
-TOR-PORT is 5153
-Tested on Debian 10
+PORT:  5153
+Linux: Debian 10
 
 #######################
 
