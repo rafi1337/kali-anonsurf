@@ -26,7 +26,7 @@ then
 fi
 
 apt-get install -y i2p-keyring #this will ensure you get updates to the repository's GPG key
-apt-get install -y secure-delete tor i2p proxychains4 macchanger# install dependencies, just in case
+apt-get install -y secure-delete tor i2p proxychains4 macchanger # install dependencies, just in case
 
 # Configure and install the .deb
 dpkg-deb -b kali-anonsurf-deb-src/ kali-anonsurf.deb # Build the deb package
