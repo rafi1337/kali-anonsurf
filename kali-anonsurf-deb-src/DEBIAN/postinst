@@ -4,3 +4,9 @@ fi
 if [ -e /etc/tor/torrc.anon ]; then
  mv /etc/tor/torrc.anon /etc/tor/torrc
 fi
+if [ -e /etc/tor/torsocks.conf ]; then
+ mv /etc/tor/torsocks.conf /etc/tor/torsocks.conf.orig
+fi
+if [ -e /etc/tor/torsocks.conf.anon ]; then
+ mv /etc/tor/torsocks.conf.anon /etc/tor/torsocks.conf
+fi
