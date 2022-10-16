@@ -30,7 +30,7 @@ Usage:
 ## Installation
 
 ```bash
-cd anonsurfz/
+cd kali-anonsurf/
 chmod +x installer.sh
 ./installer.sh
 ```
